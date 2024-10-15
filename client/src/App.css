@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #0f1722;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Header-box {
+  padding: 10px;
+  background-color: #0f1722;
+  font-weight: 500;
+  color: #fd4751;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 80px;
+}
+
+.Header-box h1 {
+  font-weight: 500;
+}
+
+.Header-box img {
+  height: 100px;
+  width: 130px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.chat-box {
+  width: 80%;
+  max-width: 800px;
+  min-height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 3px #fd4751;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #182435;
+  margin-bottom: 20px;
+}
+
+.response-box {
+  flex: 1;
+  padding: 10px;
+  box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.3);
+  overflow-y: auto;
+  margin: 20px;
+  background-color: #213148;
+}
+
+.query-box {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+  box-shadow: none;
+}
+
+.query-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  min-height: 30px;
+  background-color: #213148;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.3);
+  border-style: none;
+  transition: 0.2s;
+}
+
+.query-box input:hover {
+  box-shadow: 2px 2px 2px 2px #fd4751;
+}
+
+.query-box input:focus {
+  box-shadow: 2px 2px 2px 3px #fd4751;
+}
+
+.Footer-box {
+  padding: 20px;
+  background-color: #fd4751;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30px;
+  color: #0f1722;
+}
+
+.Footer-box h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
